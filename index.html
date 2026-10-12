@@ -1,0 +1,181 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>P.R.O.M.P.T. 저작권 수업 설계서</title>
+<meta name="description" content="프롬프트보다 먼저, 저작권 — 초등 5~6학년 교과 통합형 10차시 저작권 교육 수업 설계서">
+<meta name="theme-color" content="#1f2a36">
+<meta property="og:type" content="website">
+<meta property="og:title" content="P.R.O.M.P.T. 저작권 수업 설계서(10차시)">
+<meta property="og:description" content="나에게서 출발해 법과 이용 방법을 거쳐 AI 시대의 쟁점까지 — 초등 5~6학년 교과 통합형 10차시 저작권 교육">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f2a36'/%3E%3Ctext x='32' y='45' font-size='38' font-weight='800' text-anchor='middle' fill='%23fff' font-family='sans-serif'%3EP%3C/text%3E%3C/svg%3E">
+<style>
+html{scroll-behavior:smooth} h2,section.lesson{scroll-margin-top:64px}
+nav.top{position:sticky;top:0;z-index:10;background:rgba(250,250,248,.94);backdrop-filter:blur(6px);border-bottom:1px solid #ddd}
+nav.top .in{max-width:980px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:16px;height:52px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+nav.top .in::-webkit-scrollbar{display:none}
+nav.top .brand{font-weight:800;color:#1f2a36;text-decoration:none;margin-right:6px}
+nav.top a.lk{color:#555;text-decoration:none;font-size:14px;padding:4px 2px;border-bottom:2px solid transparent}
+nav.top a.lk:hover,nav.top a.lk.on{color:#2f5d8a;border-bottom-color:#2f5d8a}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:10px 0} .tw table{margin:0}
+table.ov td a{color:#2f5d8a;font-weight:700;text-decoration:none}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px} .jump a{display:inline-block;min-width:40px;text-align:center;padding:4px 10px;border:1px solid #ddd;border-radius:99px;background:#fff;color:#222;text-decoration:none;font-size:14px} .jump a:hover{border-color:#2f5d8a;color:#2f5d8a}
+#totop{position:fixed;right:18px;bottom:18px;width:44px;height:44px;border-radius:50%;border:0;background:#1f2a36;color:#fff;font-size:20px;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+#totop.show{opacity:.85;pointer-events:auto} #totop:hover{opacity:1}
+@media print{nav.top,#totop,.jump{display:none}}
+:root{--ink:#222;--sub:#666;--line:#ddd;--soft:#f5f5f3;--accent:#2f5d8a;--hl:#fff6d8;--hlb:#e6b800}
+*{box-sizing:border-box} body{margin:0;background:#fafaf8;color:var(--ink);font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;line-height:1.65;font-size:15px}
+.wrap{max-width:980px;margin:0 auto;padding:40px 20px 80px}
+header.cover{background:#1f2a36;color:#fff;border-radius:14px;padding:44px 36px;margin-bottom:28px}
+header.cover .k{color:#9fb3c8;font-size:14px;letter-spacing:.05em} header.cover h1{margin:.3em 0 .2em;font-size:34px;line-height:1.3}
+header.cover p{margin:0;color:#d4dde6} .chips{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px} .chips span{background:rgba(255,255,255,.12);padding:4px 12px;border-radius:99px;font-size:13px}
+h2{font-size:22px;margin:40px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--ink)} h2 .no{color:var(--accent);margin-right:8px}
+h4{margin:10px 0 4px;font-size:14px;color:var(--accent)}
+table{width:100%;border-collapse:collapse;background:#fff;margin:10px 0} th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}
+thead th{background:#2b2b2b;color:#fff;font-weight:500} tbody th{background:var(--soft);white-space:nowrap;font-weight:600}
+.model{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin:14px 0} .mstep{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;text-align:center}
+.ml{font-size:34px;font-weight:800;color:var(--accent);line-height:1} .mn{font-size:12px;color:var(--sub);margin-top:4px} .mk{font-weight:600;margin-top:6px} .mc{font-size:12px;color:var(--sub)}
+.note{background:var(--hl);border-left:4px solid var(--hlb);padding:10px 14px;border-radius:6px;margin:12px 0}
+.lesson{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:18px 0;break-inside:avoid}
+.lh{display:flex;gap:14px;align-items:center;margin-bottom:6px} .num{flex:none;width:44px;height:44px;border-radius:50%;background:#2b2b2b;color:#fff;display:grid;place-items:center;font-size:20px;font-weight:700}
+.ltitle{font-size:20px;font-weight:700} .ltitle small{font-weight:400;color:var(--sub);font-size:14px;margin-left:6px} .meta{color:var(--sub);font-size:13px}
+.stage{display:inline-block;min-width:24px;text-align:center;background:var(--accent);color:#fff;border-radius:6px;padding:0 6px;font-weight:700;font-size:13px}
+.grid2{display:grid;grid-template-columns:1.2fr 1fr;gap:18px} .grid2 ol{margin:4px 0;padding-left:20px} .grid2 p{margin:2px 0 6px}
+.flow td.t{white-space:nowrap;color:var(--sub);width:64px} .flow th:first-child{width:92px}
+.tip{background:var(--soft);border-radius:8px;padding:10px 14px;margin:10px 0 0;font-size:14px} .tip b{color:var(--accent);margin-right:6px}
+table.ov th:nth-child(-n+2),table.ov td:nth-child(-n+2){white-space:nowrap;width:1%;text-align:center} table.ov td:nth-child(3){white-space:nowrap} table.ov td:last-child{white-space:nowrap}
+ul.files li{margin:3px 0} footer{margin-top:40px;color:var(--sub);font-size:13px;text-align:center}
+@media (max-width:720px){.model{grid-template-columns:repeat(3,1fr)} .grid2{grid-template-columns:1fr} header.cover h1{font-size:26px} table{font-size:13px}}
+@media print{body{background:#fff} .lesson{border-color:#bbb}}
+</style></head><body>
+<nav class="top"><div class="in"><a class="brand" href="#">P.R.O.M.P.T.</a><a class="lk" href="#intent">설계 의도</a><a class="lk" href="#model">모형</a><a class="lk" href="#overview">한눈에 보기</a><a class="lk" href="#lessons">차시별 설계</a><a class="lk" href="#rubric">평가</a><a class="lk" href="#checklist">운영 유의점</a><a class="lk" href="#materials">자료</a></div></nav>
+<div class="wrap">
+<header class="cover"><div class="k">초등 5~6학년 저작권 체험교실 수업 설계서</div>
+<h1>P.R.O.M.P.T. 프로젝트<br>프롬프트보다 먼저, 저작권</h1>
+<p>나에게서 출발해 법과 이용 방법을 거쳐 AI 시대의 쟁점까지 — 교과 통합형 10차시 저작권 교육</p>
+<div class="chips"><span>10차시</span><span>차시당 40분 기준</span><span>국어·도덕·사회·실과·미술 통합</span><span>한국저작권위원회 교재·교보재 활용</span><span>AI 창작 → 토론 연계</span></div></header>
+
+<h2 id="intent"><span class="no">01</span>설계 의도</h2>
+<ul>
+<li><b>교재 기반 자체 학습지</b> — 한국저작권위원회 「초등학생을 위한 알기 쉬운 저작권」 교재·지도서·교보재를 뼈대로, 학생이 직접 쓰고 판단하는 차시별 학습지로 재구성했습니다.</li>
+<li><b>체험·놀이 중심</b> — 학교 안 저작물 사진 미션, 모의 간이 법정, 보드게임처럼 몸으로 겪는 활동으로 개념을 익힙니다.</li>
+<li><b>교과 통합</b> — 국어·도덕·사회·실과·미술 성취기준과 연계하고, 실과 발명 단원과 묶어 특허까지 지식재산권 전반으로 넓힙니다.</li>
+<li><b>AI 시대의 저작권</b> — 학생이 AI로 "저작권을 지키자"는 포스터를 만들고, 바로 그 포스터의 저작권이 누구에게 있는지 토론합니다. 배운 것을 적용하는 순간 스스로 새로운 질문을 발견하도록 하는 것이 핵심 장치입니다.</li>
+</ul>
+
+<h2 id="model"><span class="no">02</span>P.R.O.M.P.T. 모형</h2>
+<p>AI에게 명령어(프롬프트)를 쓰기 전에 저작권을 먼저 배운다는 뜻을 담았습니다. 1~9차시를 6단계로 구성하고, 10차시는 실과 발명과 연계해 확장합니다.</p>
+<div class="model"><div class='mstep'><div class='ml'>P</div><div class='mn'>Person</div><div class='mk'>나는 이미 저작자</div><div class='mc'>1차시</div></div><div class='mstep'><div class='ml'>R</div><div class='mn'>Recognize</div><div class='mk'>저작물 알아보기</div><div class='mc'>2차시</div></div><div class='mstep'><div class='ml'>O</div><div class='mn'>Order of law</div><div class='mk'>법이 지키는 창작</div><div class='mc'>3차시</div></div><div class='mstep'><div class='ml'>M</div><div class='mn'>Manner of use</div><div class='mk'>올바르게 쓰기</div><div class='mc'>4~5차시</div></div><div class='mstep'><div class='ml'>P</div><div class='mn'>Play</div><div class='mk'>놀이로 다지기</div><div class='mc'>6차시</div></div><div class='mstep'><div class='ml'>T</div><div class='mn'>Think with AI</div><div class='mk'>AI 시대 판단하기</div><div class='mc'>7~9차시</div></div></div>
+
+<h2 id="overview"><span class="no">03</span>차시별 흐름 한눈에 보기</h2>
+<div class="tw"><table class='ov'><thead><tr><th>차시</th><th>단계</th><th>주제</th><th>핵심 활동</th><th>교과</th></tr></thead><tbody><tr><td><a href="#l1">1</a></td><td><span class='stage'>P</span></td><td>나는 이미 저작자!</td><td>「이건 저작물일까?」 6개 사례 O/X 판별 후 이유 쓰기 → 성립 요건 3가지 정리</td><td>국어 · 도덕</td></tr><tr><td><a href="#l2">2</a></td><td><span class='stage'>R</span></td><td>저작물의 세계 지도</td><td>모둠별 학교 안 저작물 사진 미션(사람 얼굴 촬영 금지 약속 후 출발)</td><td>실과 · 미술</td></tr><tr><td><a href="#l3">3</a></td><td><span class='stage'>O</span></td><td>저작권 법정이 열립니다</td><td>심화자료로 진짜 법 만나기: 헌법 제22조 제2항, 저작권법 제125조(손해배상)·제136조 제1항(형사처벌)</td><td>국어 · 사회 · 도덕</td></tr><tr><td><a href="#l4">4</a></td><td><span class='stage'>M</span></td><td>저작권의 종류를 잡아라</td><td>교재 4단원 읽기 · 교재 활동 · 학습지 권리 카드 정리와 인격권/재산권 분류</td><td>사회 · 국어</td></tr><tr><td><a href="#l5">5</a></td><td><span class='stage'>M</span></td><td>저작물 이용 방법</td><td>교재 활동 3가지: 이용 허락 요청 글 쓰기(33쪽) · 직접→간접 인용 바꿔 쓰기(34쪽) · 규칙 빈칸(35쪽)</td><td>실과 · 국어</td></tr><tr><td><a href="#l6">6</a></td><td><span class='stage'>P</span></td><td>저작권 수호대 보드게임</td><td>교보재 7 보드게임 진행 · 틀린 문제는 모둠이 함께 이유 찾기</td><td>종합</td></tr><tr><td><a href="#l7">7</a></td><td><span class='stage'>T</span></td><td>AI 시대의 저작권 ①</td><td>Canva AI로 &quot;저작권 보호 캠페인 포스터&quot; 만들기: 주제·분위기·그림체·문구를 넣은 프롬프트 → 고쳐 쓰며 2~3회 재생성</td><td>미술 · 도덕 · 사회</td></tr><tr><td><a href="#l8">8</a></td><td><span class='stage'>T</span></td><td>AI 시대의 저작권 ②</td><td>PREP 입론 준비(주장·이유·사례·다시 주장) · 근거 자료의 출처 적기</td><td>국어 · 도덕</td></tr><tr><td><a href="#l9">9</a></td><td><span class='stage'>T</span></td><td>AI 시대의 저작권 ③</td><td>찬성·반대 입론(각 3분) → 질문과 반론(6분) → 최종 발언(각 2분) · 듣는 학생은 기록지 작성</td><td>국어 · 사회</td></tr><tr><td><a href="#l10">10</a></td><td><span class='stage'>+</span></td><td>실과 발명과 특허</td><td>저작권과 특허 비교(보호 대상 · 생기는 때 · 보호 기간) · 지식재산권 가족</td><td>실과</td></tr></tbody></table></div>
+<div class="note">운영 시간: 차시당 40분 기준입니다. 아침 활동·점심시간 같은 짧은 블록(20~30분)으로 나누어 운영할 수 있으며, 이때 개념 학습 비중이 큰 4~5차시는 교재·학습지 자기주도 학습으로 두고 교사 확인과 짧은 피드백을 반드시 짝지어 주세요. (저작권 체험교실은 1일 최대 2차시 운영 기준)</div>
+
+<h2 id="lessons"><span class="no">04</span>차시별 상세 설계</h2>
+<div class="jump"><a href="#l1">1차시</a><a href="#l2">2차시</a><a href="#l3">3차시</a><a href="#l4">4차시</a><a href="#l5">5차시</a><a href="#l6">6차시</a><a href="#l7">7차시</a><a href="#l8">8차시</a><a href="#l9">9차시</a><a href="#l10">10차시</a></div>
+<section class="lesson" id="l1">
+<div class="lh"><span class="num">1</span><div><div class="ltitle">나는 이미 저작자! <small>생활 속 저작권 감각 깨우기</small></div>
+<div class="meta"><span class="stage">P</span> 국어 · 도덕 · [6국01-03] [6도01-04]</div></div></div>
+<div class="grid2"><div><h4>학습 목표</h4><ol><li>내가 만든 것들을 저작물의 눈으로 바라볼 수 있다</li><li>저작물이 되는 조건(사람, 창작성, 표현)을 설명할 수 있다</li><li>저작물인 것과 아닌 것을 이유를 들어 구분할 수 있다</li></ol></div><div><h4>자료</h4><p>교재 8~19쪽 · 교보재 1·2·3번 · 학습지 1차시</p><h4>평가 관점</h4><p>O/X 판별 이유에 성립 요건(사람·창작성·표현)을 근거로 쓰는가</p></div></div>
+<div class="tw"><table class="flow"><thead><tr><th>단계</th><th>시간</th><th>교수·학습 활동</th></tr></thead><tbody><tr><th>도입</th><td class="t">8분</td><td>일주일 동안 내가 만든 것 떠올리기(글·그림·사진·노래·게임 등) → 짝과 공유</td></tr><tr><th>전개 ①</th><td class="t">12분</td><td>「이건 저작물일까?」 6개 사례 O/X 판별 후 이유 쓰기 → 성립 요건 3가지 정리</td></tr><tr><th>전개 ②</th><td class="t">13분</td><td>헷갈리는 사례 함께 정리: 수학 공식(사실·아이디어라서 ✕), 짧은 메시지(창작성), AI 자동 그림(논의 중)</td></tr><tr><th>정리</th><td class="t">7분</td><td>「나는 저작자 선언문」 완성 · 게시</td></tr></tbody></table></div>
+<p class="tip"><b>운영 팁</b> 수학 공식을 &quot;다른 사람이 만들어서&quot; 저작물이 아니라고 답하는 오개념이 자주 나타납니다. &quot;사실·원리·아이디어는 보호되지 않는다&quot;를 따로 짚어 주세요.</p></section>
+<section class="lesson" id="l2">
+<div class="lh"><span class="num">2</span><div><div class="ltitle">저작물의 세계 지도 <small>학교 안 저작물 찾기</small></div>
+<div class="meta"><span class="stage">R</span> 실과 · 미술 · [6실06-01] [6미02-01]</div></div></div>
+<div class="grid2"><div><h4>학습 목표</h4><ol><li>저작물의 9가지 종류를 구분할 수 있다</li><li>생활 속 저작물을 찾아 종류와 이유를 설명할 수 있다</li></ol></div><div><h4>자료</h4><p>교재 14~19쪽 · 교보재 3번 · 패들렛 · 태블릿 · 학습지 2차시</p><h4>평가 관점</h4><p>사진 캡션에 저작물의 종류와 이유를 정확히 쓰는가 · 초상권 약속을 지키는가</p></div></div>
+<div class="tw"><table class="flow"><thead><tr><th>단계</th><th>시간</th><th>교수·학습 활동</th></tr></thead><tbody><tr><th>도입</th><td class="t">5분</td><td>&quot;우리 학교에는 어떤 저작물이 숨어 있을까?&quot; 발문 · 저작물의 종류 안내</td></tr><tr><th>전개 ①</th><td class="t">15분</td><td>모둠별 학교 안 저작물 사진 미션(사람 얼굴 촬영 금지 약속 후 출발)</td></tr><tr><th>전개 ②</th><td class="t">15분</td><td>패들렛 종류별 칸에 업로드 · 캡션(이름+이유) · 다른 모둠 분류에 댓글</td></tr><tr><th>정리</th><td class="t">5분</td><td>가장 의외였던 저작물 1인 1답</td></tr></tbody></table></div>
+<p class="tip"><b>운영 팁</b> 패들렛은 열을 저작물 종류별로 미리 만들어 두세요. 출발 전 초상권 약속을 학습지에 적힌 문장으로 함께 읽고 나가면 좋습니다.</p></section>
+<section class="lesson" id="l3">
+<div class="lh"><span class="num">3</span><div><div class="ltitle">저작권 법정이 열립니다 <small>모의 간이 법정</small></div>
+<div class="meta"><span class="stage">O</span> 국어 · 사회 · 도덕 · [6국03-06] [6사03-01] [6도04-03]</div></div></div>
+<div class="grid2"><div><h4>학습 목표</h4><ol><li>저작권 침해 사례에서 창작자의 마음에 공감할 수 있다</li><li>법이 저작권을 어떻게 보호하는지 설명할 수 있다</li><li>근거를 들어 주장하고 판결할 수 있다</li></ol></div><div><h4>자료</h4><p>교재 20~25쪽 · 지도서 3단원 · 학습지 3차시 · 심화자료 「진짜 법을 만나요!」</p><h4>평가 관점</h4><p>판결 이유에 법·권리를 근거로 제시하는가</p></div></div>
+<div class="tw"><table class="flow"><thead><tr><th>단계</th><th>시간</th><th>교수·학습 활동</th></tr></thead><tbody><tr><th>도입</th><td class="t">6분</td><td>시나리오 「지우의 작품이 사라진 날」 읽기 → 지우의 마음 짝 토의</td></tr><tr><th>전개 ①</th><td class="t">8분</td><td>심화자료로 진짜 법 만나기: 헌법 제22조 제2항, 저작권법 제125조(손해배상)·제136조 제1항(형사처벌)</td></tr><tr><th>전개 ②</th><td class="t">20분</td><td>모의 간이 법정: 역할(판사·원고 측·피고 측·배심원) → 주장·반론 → 평결·판결 → 판결 이유 기록</td></tr><tr><th>정리</th><td class="t">6분</td><td>&quot;법원이 저작권을 보호하지 않는다면?&quot; 한 문장 · 실제 침해 사례 조사 과제 안내</td></tr></tbody></table></div>
+<p class="tip"><b>운영 팁</b> 소규모 학급은 역할을 겸하거나 교사가 판사를 맡아도 됩니다. 판결 이유에 &quot;어떤 법, 어떤 권리&quot;를 넣도록 하면 법적 근거를 드는 연습이 됩니다. 활동 장면을 사진으로 남겨 두세요.</p></section>
+<section class="lesson" id="l4">
+<div class="lh"><span class="num">4</span><div><div class="ltitle">저작권의 종류를 잡아라 <small>자기주도 학습</small></div>
+<div class="meta"><span class="stage">M</span> 사회 · 국어 · [6사03-01] [6국01-03]</div></div></div>
+<div class="grid2"><div><h4>학습 목표</h4><ol><li>저작인격권과 저작재산권을 구분할 수 있다</li><li>저작권이 제한되는 경우와 보호 기간을 말할 수 있다</li><li>뉴스 속 저작권 사건에서 침해된 권리를 찾을 수 있다</li></ol></div><div><h4>자료</h4><p>교재 4단원 26~31쪽 · 학습지 4차시</p><h4>평가 관점</h4><p>권리의 종류를 바르게 분류하는가 · 사건에서 침해된 권리를 찾는가</p></div></div>
+<div class="tw"><table class="flow"><thead><tr><th>단계</th><th>시간</th><th>교수·학습 활동</th></tr></thead><tbody><tr><th>안내</th><td class="t">3분</td><td>자기주도 학습 순서 안내(교재 → 학습지 → 제출)</td></tr><tr><th>개별 학습 ①</th><td class="t">17분</td><td>교재 4단원 읽기 · 교재 활동 · 학습지 권리 카드 정리와 인격권/재산권 분류</td></tr><tr><th>개별 학습 ②</th><td class="t">15분</td><td>3차시 과제로 찾은 사건으로 「뉴스 속 저작권 사건」 분석(기사 출처 포함)</td></tr><tr><th>확인</th><td class="t">5분</td><td>학습지 제출 · 교사 확인(다음 차시 도입에서 짧게 피드백)</td></tr></tbody></table></div>
+<p class="tip"><b>운영 팁</b> 자기주도 차시는 이해 정도를 즉시 확인하기 어렵습니다. 다음 차시 시작에 3문항 확인 퀴즈를 넣거나, 제출한 학습지에 짧은 피드백을 남겨 주세요. 뉴스 분석에서는 옮겨 적은 판결이 실제 그 사건의 것인지 확인하게 합니다.</p></section>
+<section class="lesson" id="l5">
+<div class="lh"><span class="num">5</span><div><div class="ltitle">저작물 이용 방법 <small>자기주도 학습</small></div>
+<div class="meta"><span class="stage">M</span> 실과 · 국어 · [6실06-01] [6국04-02]</div></div></div>
+<div class="grid2"><div><h4>학습 목표</h4><ol><li>저작권자에게 이용 허락을 받는 방법을 알 수 있다</li><li>직접 인용 · 간접 인용 · 재인용을 구분할 수 있다</li><li>학교 수업에서 저작물을 올바르게 이용하고 출처를 쓸 수 있다</li></ol></div><div><h4>자료</h4><p>교재 5단원 32~35쪽 · 학습지 5차시 · 권리자찾기 정보시스템</p><h4>평가 관점</h4><p>인용 방법을 구분해 쓰는가 · 출처를 형식에 맞게 쓰는가</p></div></div>
+<div class="tw"><table class="flow"><thead><tr><th>단계</th><th>시간</th><th>교수·학습 활동</th></tr></thead><tbody><tr><th>안내</th><td class="t">3분</td><td>발문: &quot;좋아하는 노래를 내 영상 배경음악으로 쓰고 싶다면?&quot;</td></tr><tr><th>개별 학습 ①</th><td class="t">20분</td><td>교재 활동 3가지: 이용 허락 요청 글 쓰기(33쪽) · 직접→간접 인용 바꿔 쓰기(34쪽) · 규칙 빈칸(35쪽)</td></tr><tr><th>개별 학습 ②</th><td class="t">12분</td><td>학습지: 인용 방법 정리 · 내가 읽은 책의 출처 쓰기</td></tr><tr><th>확인</th><td class="t">5분</td><td>교재·학습지 제출 · 교사 확인</td></tr></tbody></table></div>
+<p class="tip"><b>운영 팁</b> 출처 쓰기는 이후 토론(8~9차시)에서 근거의 출처를 밝히는 활동으로 이어집니다. 학생 이름이 적힌 교재를 증빙사진으로 쓸 때는 이름을 가려 주세요.</p></section>
+<section class="lesson" id="l6">
+<div class="lh"><span class="num">6</span><div><div class="ltitle">저작권 수호대 보드게임 <small>1~5차시 중간 점검</small></div>
+<div class="meta"><span class="stage">P</span> 종합 · [6도01-04]</div></div></div>
+<div class="grid2"><div><h4>학습 목표</h4><ol><li>1~5차시의 핵심 개념을 떠올려 말할 수 있다</li><li>게임 속 문제를 근거를 들어 해결할 수 있다</li></ol></div><div><h4>자료</h4><p>교보재 7 「고학년용 저작권 보호 보드게임」 · 학습지 6차시</p><h4>평가 관점</h4><p>문제 해결 과정에서 개념을 근거로 설명하는가</p></div></div>
+<div class="tw"><table class="flow"><thead><tr><th>단계</th><th>시간</th><th>교수·학습 활동</th></tr></thead><tbody><tr><th>도입</th><td class="t">5분</td><td>1~5차시 키워드 떠올리기(학습지)</td></tr><tr><th>전개</th><td class="t">25분</td><td>교보재 7 보드게임 진행 · 틀린 문제는 모둠이 함께 이유 찾기</td></tr><tr><th>정리</th><td class="t">10분</td><td>가장 어려웠던 문제와 정답 공유 · AI 시대의 저작권 예고</td></tr></tbody></table></div>
+<p class="tip"><b>운영 팁</b> 자기주도 차시(4~5차시) 직후에 두면 개념 확인 역할을 겸합니다. &quot;왜냐하면~&quot;으로 이유를 말하는 모둠 약속을 먼저 정해 주세요.</p></section>
+<section class="lesson" id="l7">
+<div class="lh"><span class="num">7</span><div><div class="ltitle">AI 시대의 저작권 ① <small>AI 저작권 보호 캠페인 포스터 만들기</small></div>
+<div class="meta"><span class="stage">T</span> 미술 · 도덕 · 사회 · [6미02-02] [6도04-03] [6사03-01]</div></div></div>
+<div class="grid2"><div><h4>학습 목표</h4><ol><li>AI 이미지 생성을 직접 체험할 수 있다</li><li>구체적인 프롬프트를 쓰고 고쳐 쓸 수 있다</li><li>AI 생성물의 저작자가 누구인지 여러 관점에서 생각할 수 있다</li></ol></div><div><h4>자료</h4><p>Canva AI(이미지 생성) · 패들렛 · 도입 자료 「이 중에 AI가 만든 작품이 있을까요?」 · 학습지 7차시</p><h4>평가 관점</h4><p>프롬프트를 구체적으로 쓰고 고쳐 쓰는가 · 저작자 선택에 이유를 제시하는가</p></div></div>
+<div class="tw"><table class="flow"><thead><tr><th>단계</th><th>시간</th><th>교수·학습 활동</th></tr></thead><tbody><tr><th>도입</th><td class="t">6분</td><td>사진 8장 중 AI가 만든 작품 맞히기 → 핵심 질문 &quot;AI가 만든 작품의 저작자는 누구일까?&quot;</td></tr><tr><th>전개 ①</th><td class="t">20분</td><td>Canva AI로 &quot;저작권 보호 캠페인 포스터&quot; 만들기: 주제·분위기·그림체·문구를 넣은 프롬프트 → 고쳐 쓰며 2~3회 재생성</td></tr><tr><th>전개 ②</th><td class="t">9분</td><td>패들렛 업로드 · &quot;이 포스터의 저작자는?&quot;(나 / AI 회사 / 원작자 / 없음) 선택과 이유</td></tr><tr><th>정리</th><td class="t">5분</td><td>AI 결과물 사실 확인 짚기 · 다음 차시 논제 예고</td></tr></tbody></table></div>
+<p class="tip"><b>운영 팁</b> AI가 실제 기관명이나 날짜를 임의로 넣는 경우가 있습니다. 좋은 반례가 되니 함께 확인해 보세요. 계정은 교육용 계정이나 교사 계정 공유 방식을 미리 정해 두세요.</p></section>
+<section class="lesson" id="l8">
+<div class="lh"><span class="num">8</span><div><div class="ltitle">AI 시대의 저작권 ② <small>토론 준비</small></div>
+<div class="meta"><span class="stage">T</span> 국어 · 도덕 · [6국01-07] [6도04-03]</div></div></div>
+<div class="grid2"><div><h4>학습 목표</h4><ol><li>논제의 뜻을 이해하고 나의 입장을 정할 수 있다</li><li>주장 · 이유 · 사례를 갖춘 입론을 준비할 수 있다</li><li>상대 주장을 예상하고 반론과 질문을 준비할 수 있다</li></ol></div><div><h4>자료</h4><p>학습지 8차시(PREP 준비표) · 국어 토론 단원 연계</p><h4>평가 관점</h4><p>PREP 구조를 갖춘 입론과 반론을 준비하는가</p></div></div>
+<div class="tw"><table class="flow"><thead><tr><th>단계</th><th>시간</th><th>교수·학습 활동</th></tr></thead><tbody><tr><th>도입</th><td class="t">5분</td><td>논제 확인: &quot;AI가 생성한 이미지의 저작권은 프롬프트를 쓴 사람에게 있다&quot; · 입장 정하기</td></tr><tr><th>전개 ①</th><td class="t">15분</td><td>PREP 입론 준비(주장·이유·사례·다시 주장) · 근거 자료의 출처 적기</td></tr><tr><th>전개 ②</th><td class="t">15분</td><td>상대 측 주장 예상 → 반론 쓰기 → 질문 3가지 만들기</td></tr><tr><th>정리</th><td class="t">5분</td><td>토론 순서와 규칙 안내 · 가정에서 자료 보충(선택)</td></tr></tbody></table></div>
+<p class="tip"><b>운영 팁</b> 7차시에 직접 만든 포스터가 토론의 소재가 되도록 연결하면 몰입도가 높습니다. 국어 토론 단원을 먼저 배운 뒤 진행하면 근거 제시와 인용이 한결 정확해집니다.</p></section>
+<section class="lesson" id="l9">
+<div class="lh"><span class="num">9</span><div><div class="ltitle">AI 시대의 저작권 ③ <small>찬반 토론</small></div>
+<div class="meta"><span class="stage">T</span> 국어 · 사회 · [6국01-07] [6사03-01]</div></div></div>
+<div class="grid2"><div><h4>학습 목표</h4><ol><li>타당한 근거를 들어 주장하고 반박할 수 있다</li><li>상대의 주장을 끝까지 듣고 존중할 수 있다</li><li>정답이 없는 문제에서 판단 기준을 세울 수 있다</li></ol></div><div><h4>자료</h4><p>학습지 9차시(토론 기록지) · 교사: 사회자 · 판정단</p><h4>평가 관점</h4><p>근거와 출처를 들어 주장·반박하는가 · 판단 기준을 스스로 정리하는가</p></div></div>
+<div class="tw"><table class="flow"><thead><tr><th>단계</th><th>시간</th><th>교수·학습 활동</th></tr></thead><tbody><tr><th>도입</th><td class="t">3분</td><td>토론 약속 확인(근거로 말하기 · 끝까지 듣기 · 생각을 반박하기)</td></tr><tr><th>전개</th><td class="t">25분</td><td>찬성·반대 입론(각 3분) → 질문과 반론(6분) → 최종 발언(각 2분) · 듣는 학생은 기록지 작성</td></tr><tr><th>정리</th><td class="t">12분</td><td>판단 기준 정리: 사람의 창작적 기여, 도구와 창작자의 구분 · 우리 저작권법의 저작물 정의 · 생각 변화 쓰기</td></tr></tbody></table></div>
+<p class="tip"><b>운영 팁</b> 토론이 뜨거울수록 &quot;아직 사회적으로 논의 중인 문제&quot;라는 점이 덜 남을 수 있습니다. 정리 단계에서 승패보다 판단 기준과 현재의 논의 상황을 꼭 짚어 주세요.</p></section>
+<section class="lesson" id="l10">
+<div class="lh"><span class="num">10</span><div><div class="ltitle">실과 발명과 특허 <small>교과 연계 확장</small></div>
+<div class="meta"><span class="stage">+</span> 실과 · 실과 발명 단원 성취기준(학교 교육과정에 맞게 기재)</div></div></div>
+<div class="grid2"><div><h4>학습 목표</h4><ol><li>생활 속 불편함을 해결하는 발명 아이디어를 구상할 수 있다</li><li>만들기 전에 특허를 확인해야 하는 이유를 말할 수 있다</li><li>저작권과 특허의 차이를 설명할 수 있다</li></ol></div><div><h4>자료</h4><p>실과 발명 단원 · 특허정보 검색 서비스(키프리스) · 학습지 10차시</p><h4>평가 관점</h4><p>특허 확인의 필요성을 설명하고 아이디어를 다듬는가</p></div></div>
+<div class="tw"><table class="flow"><thead><tr><th>단계</th><th>시간</th><th>교수·학습 활동</th></tr></thead><tbody><tr><th>도입</th><td class="t">5분</td><td>발문: &quot;내가 만든 발명품, 누군가 먼저 특허를 냈다면?&quot;</td></tr><tr><th>전개 ①</th><td class="t">8분</td><td>저작권과 특허 비교(보호 대상 · 생기는 때 · 보호 기간) · 지식재산권 가족</td></tr><tr><th>전개 ②</th><td class="t">22분</td><td>불편한 점 찾기 → 아이디어 구상(예: 우산 개량) → 특허 검색 → 차이점 찾아 다듬기 → 제작</td></tr><tr><th>정리</th><td class="t">5분</td><td>P.R.O.M.P.T. 프로젝트 돌아보기</td></tr></tbody></table></div>
+<p class="tip"><b>운영 팁</b> 실과 발명 단원 시간과 묶어 운영하면 제작 시간을 넉넉히 확보할 수 있습니다. 저작권(표현)에서 특허(아이디어)로 넓히면 1차시의 &quot;아이디어는 저작권으로 보호되지 않는다&quot;와 자연스럽게 연결됩니다.</p></section>
+
+<h2 id="rubric"><span class="no">05</span>평가 기준(루브릭)</h2>
+<div class="tw"><table><thead><tr><th>평가 영역</th><th>매우 잘함</th><th>잘함</th><th>보통</th></tr></thead><tbody>
+<tr><th>개념 이해</th><td>핵심 개념을 AI 생성물 등 새로운 상황에 적용함</td><td>핵심 개념을 친숙한 사례에 적용함</td><td>개념을 부분적으로 이해하며 도움이 필요함</td></tr>
+<tr><th>근거 있는 판단</th><td>모의 법정·토론에서 타당한 근거로 주장하고 반박함</td><td>근거를 들어 자기 생각을 말함</td><td>근거 없이 결론만 말함</td></tr>
+<tr><th>창의적 표현</th><td>포스터·학습지에 독창적인 표현으로 저작권 가치를 전달함</td><td>적절한 표현으로 저작권의 중요성을 전달함</td><td>기본 내용만 표현함</td></tr>
+<tr><th>실천 의지</th><td>구체적이고 실천 가능한 다짐을 제시함</td><td>일반적인 실천 의지를 표현함</td><td>형식적인 수준에 머무름</td></tr>
+</tbody></table></div>
+<p>사전·사후 변화는 "수업 전의 나 / 지금의 나"를 한 번에 묻는 회고식 설문(지식 6문항 + 실천 5문항, 5점 척도)으로 간단히 확인할 수 있습니다.</p>
+
+<h2 id="checklist"><span class="no">06</span>운영할 때 챙길 것</h2>
+<ul>
+<li><b>초상권</b> — 사진 미션 전 "사람 얼굴이 알아보이는 사진은 찍지 않는다"를 약속하고, 증빙사진은 얼굴과 학생 이름을 가려 주세요.</li>
+<li><b>AI 도구</b> — Canva 등 이미지 생성 도구의 계정 방식(교육용 계정 / 교사 계정 공유)을 미리 정하고, 생성물 속 기관명·날짜·문구의 사실 여부를 함께 확인합니다.</li>
+<li><b>정답 없는 쟁점</b> — AI 생성물의 저작권은 사회적으로 논의가 진행 중인 문제입니다. 결론보다 판단 기준(사람의 창작적 기여, 도구와 창작자의 구분)을 세우는 데 초점을 두세요.</li>
+<li><b>근거와 출처</b> — 5차시의 인용·출처 쓰기를 8~9차시 토론에서 근거의 출처를 밝히는 활동으로 이어 주면 학습이 연결됩니다.</li>
+</ul>
+
+<h2 id="materials"><span class="no">07</span>함께 쓰는 자료</h2>
+<ul class="files">
+<li>차시별 수업 PPT 10종 (01~10)</li>
+<li>P.R.O.M.P.T. 차시별 통합 학습지(1~10차시)</li>
+<li>3차시 심화자료 「진짜 법을 만나요!」 — 헌법 제22조 제2항, 저작권법 제125조·제136조 제1항 풀이</li>
+<li>7차시 도입 자료 「이 중에 AI가 만든 작품이 있을까요?」 (7차시 PPT에 포함)</li>
+<li>한국저작권위원회 「초등학생을 위한 알기 쉬운 저작권」 교재·지도서·교보재(교보재 1·2·3·7번 활용)</li>
+<li>참고 영상(7~8차시 보충): <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=VUQvp_bh5g8">AI 시대의 기본, 정보보호와 저작권</a></li>
+</ul>
+<p class="meta">PPT와 학습지는 「학교안심 알림장」 글꼴로 제작했습니다. 글꼴이 없는 컴퓨터에서는 다른 글꼴로 바뀌어 보일 수 있습니다.</p>
+
+<footer>P.R.O.M.P.T. 프로젝트 — 프롬프트보다 먼저, 저작권 · 2026 저작권 체험교실 운영 자료</footer>
+</div>
+<button id="totop" aria-label="맨 위로">↑</button>
+<script>
+(function(){
+  var btn=document.getElementById('totop');
+  btn.onclick=function(){window.scrollTo({top:0,behavior:'smooth'})};
+  var links=[].slice.call(document.querySelectorAll('nav.top a.lk'));
+  var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'))});
+  function onScroll(){
+    btn.classList.toggle('show',window.scrollY>600);
+    var cur=-1;
+    secs.forEach(function(s,i){if(s&&s.getBoundingClientRect().top<120)cur=i});
+    links.forEach(function(a,i){a.classList.toggle('on',i===cur)});
+    if(cur>=0)links[cur].scrollIntoView({block:'nearest',inline:'nearest'});
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+})();
+</script>
+</body></html>
